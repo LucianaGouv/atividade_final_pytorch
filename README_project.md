@@ -30,4 +30,3 @@ Onde as figuras ficam
 
 - As figuras geradas pelo notebook são salvas em `figures/`. Ao reexecutar o notebook, novas versões serão escritas nessa pasta.
 
-Se quiser, posso consolidar os arquivos nas pastas `notebooks/`, `experiments/` e `figures/` e ajustar referências nos READMEs.

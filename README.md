@@ -3,25 +3,28 @@
 Esse repositório contém o notebook e os scripts para o Capítulo 6 com dataset adaptado para o CIFAR-100.
 Veja `README_project.md` para uma reprodução completa das instruções.
 
-Quick start
+# Quick start
 
 ```bash
 source .venv/bin/activate
 pip install -r requirements.txt
 ```
+
 # Rodar notebook in-place (pode demorar vários minutos)
+
+```
 .venv/bin/python -m nbconvert --to notebook --execute --inplace Cifar100.ipynb --ExecutePreprocessor.timeout=2400
 
 ```
-# pytorch-chapter6-cifar100
+## Atividade final pytorch - cifar100
 Trabalho Final - Capítulo 6: Deep Learning com PyTorch aplicado ao CIFAR-100. Análise de EWMA, Adam, SGD, Schedulers e Visualização de Gradientes.
 
 
-# 🔥 Deep Learning com PyTorch - Capítulo 6
-## Explorando Otimizadores, Learning Rates e Visualização de Gradientes no CIFAR-100
+Deep Learning com PyTorch - Capítulo 6
+Explorando Otimizadores, Learning Rates e Visualização de Gradientes no CIFAR-100
 
 **Universidade Federal do Rio Grande do Norte (UFRN)**  
-**Disciplina**: Projeto de Sistemas Baseados em Aprendizado de Máquinas  
+Disciplina: Projeto de Sistemas Baseados em Aprendizado de Máquinas  
 **Professor**: Ivanovitch  
 **Aluna**: Luciana Gouveia  
 **Data**: Dezembro de 2025
