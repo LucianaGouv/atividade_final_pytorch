@@ -31,7 +31,7 @@ Disciplina: Projeto de Sistemas Baseados em Aprendizado de Máquinas
 
 ---
 
-## 🎯 Sobre o Projeto
+## Sobre o Projeto
 
 Este repositório contém o **Trabalho Final** da disciplina, explorando em profundidade o **Capítulo 6** do livro *Deep Learning with PyTorch Step-by-Step*, aplicado ao dataset **CIFAR-100**.
 
@@ -105,13 +105,11 @@ def calc_corrected_ewma(values, beta=0.9):
 
 Aplicamos EWMA aos gradientes da camada `conv1.weight` durante 100 mini-batches:
 
-| Métrica | Gradientes Brutos | EW
-
-MA (β=0.9) | Redução |
-|------------------|-------|-------|------|
-| **Variância**    | 0.347 | 0.119 | 66%  |
-| **Pico máximo**  | 1.823 | 0.654 | 64%  |
-| **Estabilidade** | Baixa | Alta  | +73% |
+| Métrica          | Gradientes Brutos | EWMA (β=0.9) | Redução |
+|------------------|-------------------|--------------|---------|
+| **Variância**    | 0.347             | 0.119        | 66%     |
+| **Pico máximo**  | 1.823             | 0.654        | 64%     |
+| **Estabilidade** | Baixa             | Alta         | +73%    |
 
 📊 **[Gráfico 1]**: Comparação SMA vs EWMA  
 📊 **[Gráfico 2]**: EWMA aplicado aos gradientes do CIFAR-100
