@@ -4,7 +4,7 @@
 **Disciplina: Projeto de Sistemas Baseados em Aprendizado de Máquinas**  
 **Professor**: Ivanovitch Medeiros  
 **Aluna**: Luciana Gouveia Machado 
-**Data**: Dezembro de 2025
+
 
 
 # Quick start
